@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="899b00b3-2333-4ddb-8dcb-1031ee949d1d" name="Default Changelist" comment="" />
+    <list default="true" id="899b00b3-2333-4ddb-8dcb-1031ee949d1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../InputCalculatorChallenge/src/InputCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InputCalculatorChallenge/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadingUserInputChallenge/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeedConverterExercise/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpeedConverterExercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpeedConverterExercise/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +24,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1R532OX2JrFVAq0uZQZSMBwvIuT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -66,5 +76,16 @@
       <updated>1568942921349</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

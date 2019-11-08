@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50c8edea-e94f-4915-b80c-f43fc00e217e" name="Default Changelist" comment="" />
+    <list default="true" id="50c8edea-e94f-4915-b80c-f43fc00e217e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CylinderExercise/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CylinderExercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CylinderExercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CylinderExercise/CylinderExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CylinderExercise/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CylinderExercise/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CylinderExercise/src/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

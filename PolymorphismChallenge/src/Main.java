@@ -2,13 +2,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car jeep = new Jeep();
+        Car jeep = new Jeep(4, "Jeep");
         jeep.startEngine();
 
-        Car edge = new Edge();
+        Car edge = new Edge(4, "Edge");
         edge.startEngine();
 
-        Car focus = new Focus();
+        Car focus = new Focus(4, "Focus");
         focus.startEngine();
     }
 }
@@ -20,7 +20,7 @@ class Car {
     private int cylinders;
     private int wheels;
 
-    public Car(String name, int cylinders) {
+    public Car(int cylinders, String name) {
         this.name = name;
         this.cylinders = cylinders;
 
@@ -50,8 +50,8 @@ class Car {
 }
 
 class Jeep extends Car {
-    public Jeep() {
-        super("Jeep", 4);
+    public Jeep(int cylinders, String name) {
+        super(cylinders, name);
     }
 
     public void startEngine() {
@@ -60,8 +60,8 @@ class Jeep extends Car {
 }
 
 class Edge extends Car {
-    public Edge() {
-        super("Edge", 4);
+    public Edge(int cylinders, String name) {
+        super(cylinders, name);
     }
 
     public void startEngine() {
@@ -70,8 +70,8 @@ class Edge extends Car {
 }
 
 class Focus extends Car {
-    public Focus() {
-        super("Focus", 4);
+    public Focus(int cylinders, String name) {
+        super(cylinders, name);
     }
 }
 

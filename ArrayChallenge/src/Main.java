@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -7,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         int[] myIntegers = getIntegers(5);
 
-        int[] mySortedIntegers = sortIntegers(myIntegers);
+        int[] mySortedIntegers = sortIntegers2(myIntegers);
 
         printIntegers(mySortedIntegers);
 
@@ -25,8 +26,8 @@ public class Main {
         return values;
     }
 
+    // Insertion sort
     public static int[] sortIntegers(int[] array) {
-        int[] sortedArray = new int[array.length];
         int temp;
 
         for (int i = 0; i < array.length; i++) {
@@ -40,6 +41,38 @@ public class Main {
         }
 
         return array;
+    }
+
+    // Manual sorting
+    public static int[] sortIntegers2(int[] array) {
+        int[] sortedArray = new int[array.length];
+
+        // Copy passed-in array to new array
+        for (int i = 0; i < array.length; i++) {
+            sortedArray[i] = array[i];
+        }
+
+        // or alternatively to copy array:
+        //int[] sortedArray = Arrays.copyOf(array, array.length);
+
+        boolean flag = true;
+        int temp;
+
+        while(flag) {
+            flag = false;
+
+            for (int i = 0; i < sortedArray.length-1; i++) {
+                if (sortedArray[i] < sortedArray[i + 1]) {
+                    temp = sortedArray[i];
+                    sortedArray[i] = sortedArray[i + 1];
+                    sortedArray[i + 1] = temp;
+                    flag = true;
+                }
+            }
+        }
+
+        return sortedArray;
+
     }
 
     public static void printIntegers(int[] array) {
